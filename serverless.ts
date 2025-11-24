@@ -44,7 +44,7 @@ const serverlessConfiguration: AWS = {
       certificateName:'*.nethsarani.online',
       basePath: '', 
       stage:'dev',
-      createRoute53Record:false,
+      createRoute53Record:true,
       endpointType:'regional',
     }
   },
